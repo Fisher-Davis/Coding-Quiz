@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+      <div id="welcome" class="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          In this quiz, you will be asked beginner javascript and css questions.<br>
+          Answer the questions as fast as you can. <br>
+          Click start when ready.
+        </p>
+        <button id="start">Start Quiz</button>
+      </div>
+
+     <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div> 
+
+    <script src="./js/questions.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
