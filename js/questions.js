@@ -16,9 +16,9 @@ var questions = [
     answer: "all of the above",
   },
   {
-    question: "How do you log an error message to the console of a page?",
-    choices: ["string", "console.log()", "new Date()", "Syntax"],
-    answer: "console.log()",
+    question: "what is the correct syntax of a classes in HTML?",
+    choices: ["classList", "newClass", "class ='' ", "Syntax"],
+    answer: "class ='' ",
   },
   {
     question: "What do you use when you want to loop through an array?",
